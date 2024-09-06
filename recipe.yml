@@ -5,10 +5,13 @@ install:
   - markerio
 config:
   actions:
-    # Allow all users to download media.
     user.role.anonymous:
+      ensure_exists:
+        id: anonymous
       grantPermissions:
         - 'access markerio'
     user.role.authenticated:
+      ensure_exists:
+        id: authenticated
       grantPermissions:
         - 'access markerio'
