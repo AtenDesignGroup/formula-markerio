@@ -1,0 +1,14 @@
+name: 'Formulae: Marker.io'
+description: 'Provides a basic setup of Marker.io'
+type: 'Site'
+install:
+  - markerio
+config:
+  actions:
+    # Allow all users to download media.
+    user.role.anonymous:
+      grantPermissions:
+        - 'access markerio'
+    user.role.authenticated:
+      grantPermissions:
+        - 'access markerio'

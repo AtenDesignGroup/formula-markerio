@@ -1,0 +1,15 @@
+{
+    "name": "atendesigngroup/formulae-marker",
+    "description": "Recipe for Marker.io",
+    "type": "project",
+    "license": "GPL-2.0-or-later",
+    "authors": [
+        {
+            "name": "Seth Hill",
+            "email": "seth@atendesigngroup.com"
+        }
+    ],
+    "require": {
+        "drupal/markerio": "^1.0"
+    }
+}
