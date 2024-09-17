@@ -1,0 +1,13 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - key.key.marker_io_destination
+    - markerio.settings
+id: marker_io_destination
+label: 'Marker.io destination'
+config_type: system.simple
+config_prefix: ''
+config_name: markerio.settings
+config_item: destination
+key_id: marker_io_destination

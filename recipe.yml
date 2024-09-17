@@ -2,6 +2,7 @@ name: 'Formulae: Marker.io'
 description: 'Provides a basic setup of Marker.io'
 type: 'Site'
 install:
+  - key
   - markerio
 config:
   actions:

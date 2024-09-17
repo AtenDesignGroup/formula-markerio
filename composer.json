@@ -1,7 +1,7 @@
 {
-    "name": "atendesigngroup/formulae-marker",
+    "name": "aten/formulae-markerio",
     "description": "Recipe for Marker.io",
-    "type": "project",
+    "type": "drupal-recipe",
     "license": "GPL-2.0-or-later",
     "authors": [
         {
@@ -10,6 +10,7 @@
         }
     ],
     "require": {
+        "drupal/key": "^1.19",
         "drupal/markerio": "^1.0"
     }
 }
