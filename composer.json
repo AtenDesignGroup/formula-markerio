@@ -1,5 +1,5 @@
 {
-    "name": "aten/formulae-markerio",
+    "name": "aten/formula-markerio",
     "description": "Recipe for Marker.io",
     "type": "drupal-recipe",
     "license": "GPL-2.0-or-later",
